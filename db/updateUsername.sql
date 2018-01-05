@@ -1,0 +1,1 @@
+UPDATE users SET name = $2 WHERE authid = $1 RETURNING authid, name;
